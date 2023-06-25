@@ -1,13 +1,14 @@
 import React from 'react';
 
 // react native component
-import {SafeAreaView, Text, View} from 'react-native';
+import {SafeAreaView, View} from 'react-native';
+import HeadingSearchBox from '../../components/organisms/HeaderSearchBox';
 
 const Home = () => {
   return (
     <SafeAreaView>
       <View>
-        <Text>Hello</Text>
+        <HeadingSearchBox />
       </View>
     </SafeAreaView>
   );
